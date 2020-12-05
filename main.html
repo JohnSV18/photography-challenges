@@ -13,7 +13,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="main.html">Photography</a>
+        <a class="navbar-brand" href="main.html">PhotoVid</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,34 +21,36 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="main.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#myCarousel">About us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Weekly Challanges
+                Challanges
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Beginner</a>
+                <a class="dropdown-item" href="weekly.html">Daily Challenges</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Intermediate</a>
+                <a class="dropdown-item" href="weekly.html">Weekly Challenges</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Master</a>
+                <a class="dropdown-item" href="weekly.html">Created Challenges</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
+        
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
+          <form class="form-inline">
+            <button class="btn btn-outline-success" type="button">Log In</button>
+            <button class="btn btn-outline-success" type="button">Sign Up</button>
+          </form>
         </div>
       </nav>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide mb-5" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -56,31 +58,27 @@
         </ol>
         <div class="carousel-inner">
   
-          <div class="carousel-item bg-dark active">
+          <div class="carousel-item bg-dark text-light active">
             <div class="container">
-              <h1>Example headline</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem
-                  debitis nemo non veritatis porro, dolorem inventore modi provident temporibus
-                  dolore suscipit et beatae ab consequatur repellat recusandae deleniti! Qui.</p>
-              <a href="#" class = "btn btn-lg btn-primary"> Sign Up Today </a>
+              <h1>Challenge Yourself!</h1>
+              <p>Welcome to the PhotoVid Challange App!, where we prompt you with different types of challanges weekly. Photographer or not, we welcome everyone and challenge
+                you to reach into your creative side to see what it is that catches your eye. </p>
+              <a href="#" class = "btn btn-lg btn-primary"> Join Us Today!</a>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-              <h1>Join Us!</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem
-                  debitis nemo non veritatis porro, dolorem inventore modi provident temporibus
-                  dolore suscipit et beatae ab consequatur repellat recusandae deleniti! Qui.</p>
-              <a href="#" class = "btn btn-lg btn-primary"> Sign Up Today </a>
+              <h1>Upload & Share</h1>
+              <p>You can instantly upload your submitted challenge and share with others. The best part is being able to take a look at other amazing
+                work from users tackling the same challenge. </p>
+              <a href="#" class = "btn btn-lg btn-primary"> View Amazing Photo/Vids </a>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-              <h1>Example headline</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem
-                  debitis nemo non veritatis porro, dolorem inventore modi provident temporibus
-                  dolore suscipit et beatae ab consequatur repellat recusandae deleniti! Qui.</p>
-              <a href="#" class = "btn btn-lg btn-primary"> Sign Up Today </a>
+              <h1>What does PhotoVid stand for?</h1>
+              <p>PhotoVid is what we call all our submissions for these challenges. You can either submit a photograph or a video. Just allow your creativity to flow and introduce us to a new view! </p>
+              <a href="#" class = "btn btn-lg btn-primary"> View Amazing PhotoVids</a>
             </div>
           </div>
         </div>
@@ -95,13 +93,35 @@
         <div class="col-4">
           <h2>Image Challange Example:</h2>
           <div class="col-4 image">
-            <img src="images/lights.jpg" alt="lights" width="500" height="600">
+            <img src="images/lights.jpg" alt="lights" width="450" height="475">
 
           </div>
           
           
 
         </div>
+      </div>
+      <h1 class = " m-5"> Here are some PhotoVids of this Week</h1>
+      <div class="row ">
+        <div class="col-4">
+          <h3>Challenge:</h3>
+          <p>Take a photograph or video with lights in the surroundings</p>
+          <img src="images/lights.jpg" alt="lights" width="450" height="475">
+          
+
+        </div>
+        <div class="col-4">
+          <h3>Challenge:</h3>
+          <p>Take a photograph or video with lights in the surroundings</p>
+          <img src="images/lights.jpg" alt="lights" width="450" height="475">
+
+        </div>
+        <div class="col-4">
+          <h3>Challenge:</h3>
+          <p>Take a photograph or video with lights in the surroundings</p>
+          <img src="images/lights.jpg" alt="lights" width="500" height="475">
+        </div>
+
       </div>
     
 
@@ -113,4 +133,13 @@
 
     
   </body>
+  <footer>
+    <div class="m-5">
+    <p>Contact Us: ##########</p>
+    <p>E-mail:######@#####.com</p> 
+    <p>Instagram: ######</p>
+
+    </p>
+    </div>
+  </footer>
 </html>

@@ -1,0 +1,13 @@
+
+.navbar{
+    background-color: black;
+}
+.hero-background-img {
+    background-image: url("images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:200px;
+    padding-bottom:200px;
+  }
+  

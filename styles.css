@@ -1,6 +1,7 @@
 
 .navbar{
     background-color: black;
+    
 }
 .hero-background-img {
     background-image: url("images/mountains.jpg");
@@ -8,6 +9,43 @@
     background-size: cover;
     background-position: center;
     padding-top:200px;
-    padding-bottom:200px;
+    /* padding-bottom:200px; */
   }
-  
+  footer{
+      background-color: black;
+      color: #00ffff;
+      
+  }
+  .btn{
+      background-color: #00ffff;
+      color: gray;
+      border-color: cyan;
+  }
+  .carousel{
+      height: 400px;
+      color: #00ffff;
+      background-color: black;
+  }
+  .daily-challenge{
+      background-color: black;
+  }
+  .row{
+      background-color: black;
+      color: #00ffff;
+  }
+  .row h1, h2, h3{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .all-page{
+      background-color: black;
+  }
+  .bottom-button{
+      background-color: black;
+  }
+  .theme-intro{
+      color: #00ffff;
+      background-color: black;
+  }
+  body{
+      background-color: black;
+  }
